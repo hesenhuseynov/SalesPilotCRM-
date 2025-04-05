@@ -10,6 +10,7 @@ obj/
 # Local config
 SalesPilotCRM.API/appsettings.Development.json
 SalesPilotCRM.API/appsettings.Local.json
+SalesPilotCRM.API/appsettings.json
 
 # Security (optional)
 *.db
