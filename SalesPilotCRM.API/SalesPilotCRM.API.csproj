@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+    <PackageReference Include="NSwag.AspNetCore" Version="14.3.0" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SalesPilotCRM.Application\SalesPilotCRM.Application.csproj" />
+    <ProjectReference Include="..\SalesPilotCRM.Infrastructure\SalesPilotCRM.Infrastructure.csproj" />
+    <ProjectReference Include="..\SalesPilotCRM.Persistence\SalesPilotCRM.Persistence.csproj" />
+    <ProjectReference Include="..\SalesPilotCRM.Domain\SalesPilotCRM.Domain.csproj" />
+    <ProjectReference Include="..\SalesPilotCRM.Shared\SalesPilotCRM.Shared.csproj" />
+  </ItemGroup>
+</Project>

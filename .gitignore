@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+
+# Local config
+SalesPilotCRM.API/appsettings.Development.json
+SalesPilotCRM.API/appsettings.Local.json
+
+# Security (optional)
+*.db
+.env
